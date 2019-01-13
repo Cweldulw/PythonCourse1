@@ -1,6 +1,12 @@
 lst = [int(i) for i in input().split()]
 x = int(input())
 
-for i in range(len(lst)):
-    print(lst.index(x), end = ' ')4
-    lst[lst.index(x)] = a
+if x not in lst:
+    print('Отсутствует')
+else:
+    for i in range(len(lst)):
+        if x not in lst:
+            break
+        else:
+            print(lst.index(x), end = ' ')
+            lst[lst.index(x)] = 'a'
