@@ -1,3 +1,8 @@
+slova =[]
+slovar = []
+slovo = ''
+
+
 slova = [i for i in input().lower().split()]
 
 slovar = set(slova)
