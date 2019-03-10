@@ -23,7 +23,8 @@ while i < len(str1):
     else:
         s2=''
     if not s1.isdigit() and not s2.isdigit():
-        a.append(s1, 1)
+        a1 = [s1, 1]
+        a.append(a1)
     elif not s1.isdigit() and s2.isdigit():
         k=i+1
         while s2.isdigit():
